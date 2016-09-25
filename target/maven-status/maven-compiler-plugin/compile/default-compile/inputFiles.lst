@@ -1,0 +1,11 @@
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/configuration/Configuration.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/models/Access.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/pages/ConfluenceHomePage.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/core/WebDriverManager.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/models/PageData.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/pages/LoginPage.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/configuration/WebDriverConfig.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/pages/BlankPage.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/core/BaseSetup.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/core/PageObject.java
+/Users/rajeshkalloor/repos/AtlassianAutomation/src/main/java/atlassian/pages/HomePage.java
