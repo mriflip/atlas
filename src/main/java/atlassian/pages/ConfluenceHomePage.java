@@ -28,7 +28,7 @@ public class ConfluenceHomePage extends PageObject{
         return new DefaultPage();
     }
 
-    public DefaultPage searchAndNavigateToPage(DefaultPage defaultPage, String title) throws InterruptedException {
+    public DefaultPage searchAndNavigateToPage(DefaultPage defaultPage, String title) {
         WebElement search = driver.findElement(searchBox);
 
         click(search);
@@ -36,7 +36,11 @@ public class ConfluenceHomePage extends PageObject{
 
         // The loading takes a second. Have put sleep to avoid failure because of that
         // This can be modified/optimized to use some wait.until(ExpectedConditions)
-        Thread.sleep(1000);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         search.sendKeys(Keys.ARROW_DOWN);
         search.sendKeys(Keys.RETURN);

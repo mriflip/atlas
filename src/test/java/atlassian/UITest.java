@@ -58,7 +58,7 @@ public class UITest extends BaseSetup {
     }
 
     @Test(dependsOnMethods = {"createNewPageAndSetRestrictions"})
-    public void testRestrictions() throws InterruptedException {
+    public void testRestrictions() {
 
         login("raj_kalloor23@rediffmail.com", "welcome4414");
 

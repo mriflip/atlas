@@ -54,7 +54,7 @@ public class DefaultPage extends PageObject {
         Assert.assertEquals(driver.findElement(savedBody).getText(), body);
     }
 
-    public void editPage(String newTitle) throws InterruptedException {
+    public void editPage(String newTitle) {
         click(driver.findElement(editButton));
 
         WebDriverWait wait = new WebDriverWait(driver, 3);
